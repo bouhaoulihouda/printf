@@ -123,12 +123,12 @@ int print_reverse(va_list types, char buffer[],
 
 		strg = ")Null(";
 	}
-	for (j = 0; str[j]; j++)
+	for (j = 0; strg[j]; j++)
 		;
 
 	for (j = j - 1; j >= 0; j--)
 	{
-		char x = str[j];
+		char x = strg[j];
 
 		write(1, &x, 1);
 		cnt++;

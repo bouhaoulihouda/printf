@@ -75,7 +75,7 @@ int write_number(int is_negative, int in, char buffer[],
 		extra_ch = ' ';
 
 	return (write_num(in, buffer, flags, width, precision,
-		length, padd, extra_ch));
+		length, pad, extra_ch));
 }
 
 /**
